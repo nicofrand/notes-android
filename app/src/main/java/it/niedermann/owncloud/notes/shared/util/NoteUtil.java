@@ -123,6 +123,19 @@ public class NoteUtil {
         return line;
     }
 
+    /**
+     * Strips all lines beginning with a filled checkbox from the Markdown.
+     *
+     * @param content    String
+     * @return newContent String
+     */
+    @NonNull
+    public static String getContentWithoutCheckedItems(@NonNull String content) {
+        String newContent = "FOOBAR";
+
+        return newContent;
+    }
+
     @NonNull
     public static String extendCategory(@NonNull String category) {
         return category.replace("/", " / ");
